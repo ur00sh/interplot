@@ -33,6 +33,7 @@
         </div>
         <div class = "footer">
             <a href="index.php">Home</a>
+	    <h1 style="color: red">test</h1>
             <a href="contact.html">Contact</a>
             <a href="about.php">About us</a>
             <a href="new.html">More...</a>
