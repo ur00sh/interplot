@@ -88,6 +88,8 @@ html, body
 
 .wrapper h2
 {
+    background-color:#FFD460;
+    color:rgba(45, 64, 89, 1);
     justify-content:center;
     margin:0;
     text-align:center;
@@ -98,15 +100,24 @@ html, body
     transform:translateX(-50%) translateY(-50%);
 }
 
-.wrapper h2 a
+.wrapper a
 {
-    color:rgba(45, 64, 89, 1);
+    text-decoration:underline;
+    font-family:'JetBrains Mono', monospace;
+    justify-content:center;
+    text-align:center;
+    position:relative;
+    top:40%;
+    left:44.5%;
+    transform:translateX(-50%) translateY(-50%);
+    color:#2D4059;
+    font-size:30px;
 }
 
-.wrapper h2 a:hover
+.wrapper a:hover
 {
     background-color:#FFD460;
-
+    transition:0.5s;
 }
 
 .footer

@@ -81,33 +81,29 @@ html, body
     font-family:'JetBrains Mono', monospace;
     justify-content:center;
     position:relative;
-    top:40%;
-    left:50%;
+    top:10%;
+    left:20%;
     transform:translateX(-50%) translateY(-50%);
 }
 
-.wrapper h2
-{
-    justify-content:center;
-    margin:0;
-    text-align:center;
-    font-family:'JetBrains Mono', monospace;
-    position:relative;
-    top:40%;
-    left:50%;
-    transform:translateX(-50%) translateY(-50%);
-}
-
-.wrapper h2 a
+.wrapper a
 {
     color:rgba(45, 64, 89, 1);
+    font-family:'JetBrains Monospace',monospace;
+    top:20%;
+    position:relative;
+    margin:0;
+    top:10%;
+    left:20%;
+    font-size:30px;
 }
 
-.wrapper h2 a:hover
+.wrapper a:hover
 {
     background-color:#FFD460;
-
+    transition:0.5s;
 }
+
 
 .footer
 {
