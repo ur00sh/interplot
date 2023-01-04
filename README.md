@@ -1,7 +1,3 @@
 # interplot
-website
 
-
-https://interplot.org/
-
-(edjan fucked everything up smh)
+Work in progress...
